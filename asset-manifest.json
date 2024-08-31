@@ -1,15 +1,24 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.c45d8798.css",
-    "main.js": "/my-portfolio/static/js/main.01bfe0cf.js",
+    "main.js": "/my-portfolio/static/js/main.b8e28c90.js",
     "static/js/453.acca0757.chunk.js": "/my-portfolio/static/js/453.acca0757.chunk.js",
+    "static/media/Coder.png": "/my-portfolio/static/media/Coder.1abf64e2745254b28962.png",
+    "static/media/github clickme.jpg": "/my-portfolio/static/media/github clickme.7d573d3d4a4c1f4ae090.jpg",
+    "static/media/JavaScript-Logo 8.png": "/my-portfolio/static/media/JavaScript-Logo 8.1a9463eb43499599a9cb.png",
+    "static/media/wallpaper.jpg": "/my-portfolio/static/media/wallpaper.f443e219c2797bc3a62f.jpg",
+    "static/media/css icon2.png": "/my-portfolio/static/media/css icon2.def0d61b45de128e0c9c.png",
+    "static/media/Dice Game.jpg": "/my-portfolio/static/media/Dice Game.59abb92456631c253acd.jpg",
+    "static/media/codequery.jpg": "/my-portfolio/static/media/codequery.560417f8acbc04303023.jpg",
+    "static/media/react transparent2.png": "/my-portfolio/static/media/react transparent2.48f000502c80a5d84419.png",
+    "static/media/HTML Logo.png": "/my-portfolio/static/media/HTML Logo.ee819c464ccfe2601cf3.png",
     "index.html": "/my-portfolio/index.html",
     "main.c45d8798.css.map": "/my-portfolio/static/css/main.c45d8798.css.map",
-    "main.01bfe0cf.js.map": "/my-portfolio/static/js/main.01bfe0cf.js.map",
+    "main.b8e28c90.js.map": "/my-portfolio/static/js/main.b8e28c90.js.map",
     "453.acca0757.chunk.js.map": "/my-portfolio/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c45d8798.css",
-    "static/js/main.01bfe0cf.js"
+    "static/js/main.b8e28c90.js"
   ]
 }

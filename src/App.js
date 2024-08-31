@@ -10,16 +10,13 @@ import LinkedIn from "./components/LinkedIn";
 function App() {
   return (
     <div>
-      
       <BrowserRouter>
       <Navbar/>
-      
-      
       <Routes>
-      <Route path='/' element={<Home/>}/>
-        <Route path='/about' element={<About/>}/>
-        <Route path='/project' element={<Project/>}/>
-        <Route path='/linkedin' element={<LinkedIn/>}/>
+      <Route path='my-portfolio/' element={<Home/>}/>
+        <Route path='my-portfolio/about' element={<About/>}/>
+        <Route path='my-portfolio/project' element={<Project/>}/>
+        <Route path='my-portfolio/linkedin' element={<LinkedIn/>}/>
       </Routes>
       
     </BrowserRouter>

@@ -410,6 +410,10 @@ body {
     flex-direction: column;
   }
 
+  .container_outer_img {
+    margin: 20px;
+  }
+
   .container_content {
     width: auto;
     margin-top: 20px;
@@ -466,6 +470,10 @@ body {
 .style {
   position: unset;
   margin: 0;
+}
+
+.navbar {
+  padding: 10px;
 }
 
 }

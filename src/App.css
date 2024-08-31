@@ -405,7 +405,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   .container-word {
     flex-direction: column;
   }
@@ -434,20 +434,21 @@ body {
   .about {
     background-color: #151226;
     width: 100%;
-    height: 145vh;
+    height: 100vh;
     color: white;
     overflow: scroll;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    padding-bottom: 100px;
 }
 .paragraph {
   width: 90%;
   position: unset;
-  bottom: -90px;
   margin: 0;
   word-spacing: normal;
+  margin-top: 30px;
 }
 
 .right {
@@ -455,21 +456,24 @@ body {
   width: 300px;
   height: 262px;
   margin: 0;
+  margin-top: 20px;
 }
 
 .font {
   position: unset;
   margin: 0;
+  margin-top: 15px;
 }
 
 .icon {
   position: unset;
-  margin: 0;
+  margin-top: 20px;
 }
 
 .style {
   position: unset;
   margin: 0;
+  margin-top: 20px;
 }
 
 .navbar {

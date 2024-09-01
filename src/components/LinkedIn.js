@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 function LinkedIn() {
-  return (
-    <div>LinkedIn</div>
-  )
+  return <div>LinkedIn</div>;
 }
 
-export default LinkedIn
+export default LinkedIn;

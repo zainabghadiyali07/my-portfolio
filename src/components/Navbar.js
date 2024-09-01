@@ -8,7 +8,7 @@ function Navbar() {
   return (
     <div className="navbar">
       <div className="navbar-left">
-        <h5>Zainab Ghadiyali</h5>
+        <h5 className="header-name">Zainab Ghadiyali</h5>
       </div>
       <div className="navbar-right">
         <Link

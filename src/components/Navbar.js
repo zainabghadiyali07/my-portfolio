@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import { useLocation } from 'react-router-dom';
+import { useLocation,Link } from 'react-router-dom';
 function Navbar() {
   const location = useLocation();
   const[activeLink,setActiveLink]=useState(location.pathname);
-
+  console.log(location.pathname)
   useEffect(() => {
     setActiveLink(location.pathname);
   }, [location.pathname]);
@@ -21,9 +21,11 @@ function Navbar() {
       </div>
       
       <div className="navbar-right">
-        <a href="/" className={activeLink === '/'? 'active':''} onClick={() => handleLinkClick('/')} > Home</a>
-        <a href="/about" className={activeLink === '/about'? 'active':''} onClick={() => handleLinkClick('about')}>About </a>
-        <a href="/project"className={activeLink === '/project'? 'active':''} onClick={() => handleLinkClick('project')}>Projects</a>
+        <Link to="/" className={activeLink === '/'? 'active':''} onClick={() => handleLinkClick('/')} > Home</Link>
+        <Link to="/about" className={activeLink === '/about'? 'active':''} onClick={() => handleLinkClick('about')}>About </Link>
+        <Link to="/project"className={activeLink === '/project'? 'active':''} onClick={() => handleLinkClick('project')}>Projects</Link>
+        <Link to="/skills"className={activeLink === '/skills'? 'active':''} onClick={() => handleLinkClick('skills')}>Skills</Link>
+        
       </div>
       </div>
       

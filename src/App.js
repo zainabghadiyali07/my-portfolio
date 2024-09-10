@@ -5,7 +5,8 @@ import About from "./components/About";
 import Project from "./components/Project";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
-import LinkedIn from "./components/LinkedIn";
+
+import Skills from "./components/Skills";
 
 function App() {
   return (
@@ -19,7 +20,8 @@ function App() {
       <Route path='/' element={<Home/>}/>
         <Route path='/about' element={<About/>}/>
         <Route path='/project' element={<Project/>}/>
-        <Route path='/linkedin' element={<LinkedIn/>}/>
+        
+        <Route path='/skills' element={<Skills/>}/>
       </Routes>
       
     </BrowserRouter>

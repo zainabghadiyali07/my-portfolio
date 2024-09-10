@@ -1,5 +1,6 @@
 import React from 'react';
 import {useNavigate} from 'react-router-dom'
+import wallpaper from '../images/wallpaper.jpg';
 
 function Home() {
   const navigate = useNavigate();
@@ -28,7 +29,8 @@ function Home() {
     </div>
      <div className="container_outer_img">
      <div className="img-inner">
-     <img src='/images/wallpaper.jpg' width={500} height={500} alt="" className="container_img"/>
+     <img src={wallpaper} width={500} height={500} alt="" className="container_img"/>
+     
            </div>
          </div>
       </div>

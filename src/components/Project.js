@@ -3,6 +3,7 @@ import diceIcon from "../images/Dice Game.jpg";
 import codequery from "../images/codequery.jpg";
 import todoimage from "../images/todoimage.jpg";
 import weatherImage from "../images/weatherImage.jpg";
+import quiz from "../images/quiz.png";
 
 function Project() {
   const projects = [
@@ -26,6 +27,11 @@ function Project() {
       altText: "todo",
       link: "https://zainabghadiyali07.github.io/todo-list/",
     },
+    {
+      imgSrc: quiz,
+      altText: "quiz",
+      link: "https://zainabghadiyali07.github.io/quiz-app/",
+    },
   ];
 
   return (
@@ -37,7 +43,7 @@ function Project() {
               <img src={project.imgSrc} alt={project.altText} />
             </div>
             <div className="card__face card__face--back">
-              <a href={project.link} target="blank">
+              <a href={project.link} target="_blank" rel="noreferrer">
                 <img src={gitIcon} alt="git" />
               </a>
             </div>

@@ -297,10 +297,8 @@ body {
 }
 
 .scene {
-  width: 1000px;
+  width: 1246px;
   display: flex;
-  margin-right: 2%;
-  margin-right: -20%;
   perspective: 800px;
   gap: 1%;
 }

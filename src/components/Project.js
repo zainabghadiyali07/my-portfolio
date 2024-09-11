@@ -24,7 +24,7 @@ function Project() {
     {
       imgSrc: todoimage,
       altText: "todo",
-      link: "https://zainabghadiyali07.github.io/todo-app/",
+      link: "https://zainabghadiyali07.github.io/todo-list/",
     },
   ];
 
@@ -37,7 +37,7 @@ function Project() {
               <img src={project.imgSrc} alt={project.altText} />
             </div>
             <div className="card__face card__face--back">
-              <a href={project.link}>
+              <a href={project.link} target="blank">
                 <img src={gitIcon} alt="git" />
               </a>
             </div>
